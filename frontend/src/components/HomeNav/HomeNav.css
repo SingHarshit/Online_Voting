@@ -1,0 +1,70 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #114eb8; /* Dark background */
+  color: white;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Menu Button */
+.menu-btn {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-btn:hover {
+  background-color: #555;
+}
+
+/* Right-side items container */
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Toll-Free text */
+.toll-free {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ddd;
+}
+
+/* Navigation links */
+.nav-link {
+  text-decoration: none;
+  color: white;
+  background-color: #555;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #777;
+  color: #fff;
+}
+.logout-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #cc0000;
+}

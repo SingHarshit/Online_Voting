@@ -1,0 +1,86 @@
+/* Heading Styles */
+.headinge {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #8f2ec0, #284ad2); 
+    font-size: 24px;
+    color:white !important;
+}
+
+/* Options Container - Arrange in Row */
+.optionsS {
+    background-color:white !important;
+    height: 100px !important;
+    display: flex;
+    justify-content: center; /* Center the options */
+    gap: 20px; /* Spacing between options */
+}
+
+/* Default Option Styling */
+.optionhead {
+    padding: 15px 20px;
+    background-color: #f4f4f4;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    min-width: 250px; /* Ensure equal width */
+}
+
+/* Option Hover Effect */
+.optionhead:hover {
+    background-color: #ddd;
+}
+
+/* Active (Clicked) Option */
+.optionhead.active {
+    background-color: #3498db;
+    color: white;
+    border: 2px solid #217dbb;
+}
+
+/* Result Table */
+.result-table {
+    height: 500px !important;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.result-table h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background: #3498db;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+tr:hover {
+    background: #ddd;
+}
