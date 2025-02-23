@@ -14,7 +14,7 @@ const Verify = () => {
   const sendOtp = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:3000/send-otp", { email });
+      const res = await axios.post("https://college-system-eq4r.onrender.com/send-otp", { email });
       setMessage(res.data.message);
       setMessageType("success");
       setStep(2);
@@ -27,7 +27,7 @@ const Verify = () => {
   const verifyOtp = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:3000/verify-otp", { email, otp });
+      const res = await axios.post("https://college-system-eq4r.onrender.com/verify-otp", { email, otp });
       setMessage(res.data.message);
       setMessageType("success");
       setTimeout(() => navigate("/Home"), 1500);

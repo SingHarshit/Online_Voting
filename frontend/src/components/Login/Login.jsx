@@ -33,7 +33,7 @@ const Login = () => {
 
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:3000/login", formData, {
+      const response = await axios.post("https://college-system-eq4r.onrender.com/login", formData, {
         headers: { "Content-Type": "application/json" },
       });
 

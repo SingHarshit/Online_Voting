@@ -50,7 +50,7 @@ const Registration = () => {
   
     if (validateForm()) {
       try {
-        const response = await axios.post("http://localhost:3000/register", formData);
+        const response = await axios.post("https://college-system-eq4r.onrender.com/register", formData);
         setSuccessMessage(response.data.message || "Registration successful!");
         
         setTimeout(() => {
