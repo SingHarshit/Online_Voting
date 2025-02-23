@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route,useLocation } from "react-router-dom";
 import './index.css'
 import Registration from "./components/Registration/Registration";
-import Read from "./components/Read/read";
+import Read from "./components/Read/Read";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Election from "./components/Election/Election";
